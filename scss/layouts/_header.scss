@@ -1,0 +1,27 @@
+.nav {
+  background: $BG-COLOR;
+  color: white;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__list {
+    display: flex;
+    gap: 50px;
+  }
+  &__menu{
+    display: none;
+  }
+}
+@include mobile() {
+  .nav {
+    &__list,
+    &__button {
+      display: none;
+    }
+    &__menu{
+      display: block;
+    }
+  }
+}

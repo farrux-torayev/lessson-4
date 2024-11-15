@@ -1,0 +1,16 @@
+.btn {
+  width: 138px;
+  height: 48px;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 14.35px;
+  color: white;
+  background:transparent;
+  border-radius: 6px;
+  border: 1px solid white;
+  transition: 1s ease-in-out;
+}
+.btn:hover{
+   background: #EF6D58;
+  color: white;
+}

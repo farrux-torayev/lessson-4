@@ -1,0 +1,21 @@
+.dec {
+  background: #fdf0e9;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 73px 0;
+  }
+  &__hr {
+    color: #f3d1bf;
+  }
+}
+@include mobile() {
+  .dec {
+    padding: 73px 0;
+    &__wrapper {
+      gap: 41px;
+      justify-content: center;
+    }
+  }
+}
