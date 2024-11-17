@@ -2,7 +2,7 @@
   width: 1170px;
   min-width: 375px;
   margin: auto;
-  //   padding: 0 16px;
+  overflow: hidden;
 }
 @include mobile() {
   .container {
